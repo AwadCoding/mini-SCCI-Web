@@ -1,9 +1,7 @@
 :root{
-    --input-bg: white;
     --lable-color: #2a3a6b;
 }
 .dark-mode {
-    --input-bg: #1a1a4d;
     --lable-color: white;
 }
 
@@ -42,7 +40,8 @@
 .get-in-touch{
     display: flex;
     flex-direction: column;
-    gap: var(--space-6); 
+    align-items: center;
+    justify-content: space-between;
 }
 
 i{
@@ -55,30 +54,33 @@ i{
 
 /* ========================================= form ========================================= */
 
-.form-header{
-    position: relative;
 
-}
 
-.form-header label{
-    position: absolute;
+.form-header p{
     font-size: var(--fs-xl);
-    transform: translateY(-220%);
-    background-color: var(--body-bg);
+    color: var(--text-light);
+    font-weight: bold;
+    margin-bottom: 20px;
+
 }
 
 .form-container{
     border: 2px solid var(--btn-secondary-hover);
-    padding: 5%;
+    padding: 3%;
     border-radius: var(--radius-xl);
-    
+    background-color: var(--card-bg); 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 90%;
 }
 
 form{
 
     display: flex;
     flex-direction: column;
-    gap: var(--space-6); 
+    gap: var(--space-6);
     
 }
 .input-box {
@@ -92,12 +94,12 @@ form{
   font-size: var(--fs-base);
   border: 1px solid var(--color-gray-light);
   border-radius: var(--radius-xl);
-  background: var(--input-bg);
+  background: var(--card-bg);
 }
 
 .input-box label {
   position: absolute;
-  left: 10px;
+  left: 15px;
   top: 50%;
   transform: translateY(-50%);
   color:   var(--text-light);
@@ -107,8 +109,8 @@ form{
 
 .input-box input:focus + label,
 .input-box input:not(:placeholder-shown) + label {
-    background: var(--body-bg);
-    top: -8px;
+    background: var(--card-bg);
+    top: -1px;
     font-size: var(--fs-base);
     color: var(--lable-color);
 }
@@ -122,13 +124,13 @@ form{
     font-size: var(--fs-base);
     border: 1px solid var(--color-gray-light);
     border-radius: var(--radius-xl);
-    background: var(--input-bg);
+    background: var(--card-bg);
 }
 
 .input-box textarea:focus + label,
 .input-box textarea:not(:placeholder-shown) + label {
-    background: var(--body-bg);
-    top: -5px;
+    background: var(--card-bg);
+    top: -1px;
     font-size: var(--fs-base);
     color: var(--lable-color);
 }
@@ -150,7 +152,7 @@ form{
 
 /* ================================= media query ================================ */
 
-@media (max-width: 920px) {
+@media (max-width: 780px) {
     /* =================== intro ================= */
     .contact-intro h1{
         font-size: var(--fs-xl);
