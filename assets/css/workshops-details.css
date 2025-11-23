@@ -2,7 +2,20 @@
     text-align: center;
     margin-top: 14rem;
     color: var(--color-primary);
-    font-weight: 800;
+    font-weight: 700;
+}
+
+.details-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+.details-img {
+    width: 37rem;
+    padding-top: var(--space-10);
+    animation: fidup 3s ease-in-out infinite;
 }
 
 .details h2 {
@@ -161,4 +174,18 @@
         font-size: 1.4rem;
     }
 
+}
+
+@keyframes fidup {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
