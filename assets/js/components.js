@@ -122,8 +122,8 @@ const Components = (function () {
                     </li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="workshops.html">Workshops</a></li>
-                    <li><a href="contact.html">Contact</a></li>
                     <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <ul>
                     <li>
@@ -133,8 +133,8 @@ const Components = (function () {
                     </li>
                     <li class="hideOnMobile"><a href="index.html">Home</a></li>
                     <li class="hideOnMobile"><a href="workshops.html">Workshops</a></li>
-                    <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
                     <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                    <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
                     <li class="menu-button" id="menu-icon">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
