@@ -1,8 +1,10 @@
 :root{
     --lable-color: #2a3a6b;
+    --input-txt: #0a1340;
 }
 .dark-mode {
     --lable-color: white;
+    --input-txt: white;  
 }
 
 /* =========================== intro ======================================================= */
@@ -92,6 +94,7 @@ form{
   width: 100%;
   padding: 12px 10px;
   font-size: var(--fs-base);
+  color: var(--input-txt);
   border: 1px solid var(--color-gray-light);
   border-radius: var(--radius-xl);
   background: var(--card-bg);
