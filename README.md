@@ -21,7 +21,7 @@ Primary Red – Navy Blue – Grayscale – Status Colors
 - HTML5  
 - CSS3  
 - JavaScript  
-- Backend (PHP / Node / any used)  
+- Backend (PHP / laravel / any used)  
 - GitHub Collaboration  
 - AOS.js  
 - Font Awesome  
